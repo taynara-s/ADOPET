@@ -1,0 +1,288 @@
+body{
+	padding:0;
+	margin:0;
+	}
+#titulo{
+	margin-top: 10px;
+	color: #47525E;
+	font-family: Josefin Slab;
+	font-size: 50px;
+	text-align: center;
+	height: 60px;
+	text-decoration: none
+	}
+#titulo-login{
+	margin-top: 10px;
+	margin-bottom: 50px;
+	color: #47525E;
+	font-family: Josefin Slab;
+	font-size: 50px;
+	text-align: center;
+	height: 60px;
+	}
+#menu{
+	height:50px;
+	margin:auto;
+	}
+#menu ul li{
+	width: 100%;
+	display:inline;
+	}
+#menu ul li a{
+	text-decoration:none;
+	color:#969FAA;
+	font-family:Century Gothic;
+	padding:1.3% 6%;
+	float:left;
+	margin:auto;
+	opacity:5.0;
+	}
+#home a:hover, #doacoes a:hover, #quemsomos a:hover, #fale a:hover, #adocoes a:hover, #addpet a:hover{
+	color:black;
+	opacity:none;
+	font-weight: bold;
+	}
+#cadastro button{
+	background-color:white;
+	margin-left: 75px;
+	border: 0;
+	padding: 16px;
+	display: inline-block;
+	cursor: pointer;
+	border-radius: 4px;
+	}
+#cadastro button a:hover{
+	color:black;
+	background-color:white;
+	opacity:none;
+	text-decoration: none;
+	}
+#login button{
+	margin-left: 10px;
+	border: 0;
+	padding: 16px 16px;
+	display: inline-block;
+	cursor: pointer;
+	border-radius: 4px;
+	}
+	
+#login button:hover{
+	background-color: #8190A5;
+	color:white;
+}
+#login button a:hover{
+	text-decoration: none;
+	color: white;
+	}
+#conteudo{
+	margin-top: 30px;
+}
+#imgPrincipal{
+	height:10%;
+}
+#principal{
+  background-color: #E5E9F2;
+  opacity: 0.8;
+  width: 96.8%;
+  height: 600px;
+  padding: 20px;
+}
+#login{
+	background-color: #FFFFFF;
+	width: 60%;
+	height: 80%;
+}
+h2{
+	color: #47525E;
+	font-family: Century Gothic;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 20px;
+}
+h4{
+	color: #8190A5;
+	font-family: Century Gothic;
+	margin: 0;
+	font-size: 15px;
+	text-align: center
+}
+input{
+	background-color: #FFFFFF;
+	border: 1px solid #8492A6;
+	border-radius: 5px;
+	width: 200px;
+	height: 30px;
+}
+#cadastroLogin{
+	font-size:15px;
+	color: #47525E;
+	text-decoration: none;
+	font-family: Century Gothic;
+}
+#cadastroLogin:hover{
+	color: black;
+	text-decoration: none;
+	font-family: Century Gothic;
+}
+#cadastroUsuario{
+	text-align: center;
+	background-color: #E5E9F2;
+}
+#cadastroUsuario form input{
+	text-align:center;
+}
+h3{
+	text-align: center;
+	padding:20px;
+	color: #47525E;
+	font-family: Century Gothic;
+	font-size: 25px;
+}
+#cadastroUsuario button{
+	background-color: #FFFFFF;
+	margin-left: 10px;
+	border: 0;
+	padding: 16px 16px;
+	display: inline-block;
+	cursor: pointer;
+	border-radius: 4px;
+	}
+	
+#cadastroUsuario button:hover{
+	background-color: #8190A5;
+	color:white;
+}
+#cadastroUsuario button a:hover{
+	text-decoration: none;
+	color: white;
+}
+#menuUsuario{
+	background-color: #E5E9F2;
+	opacity: 0.5;
+	height:50px;
+	margin:auto;
+	}
+#menuUsuario ul li{
+	display:inline;
+	padding: 0 3%;
+	}
+#menuUsuario ul li a{
+	text-decoration:none;
+	color:black;
+	font-family:Century Gothic;
+	opacity:5.0;
+	padding:0;
+	}
+#iconSair{
+	display:inline;
+}
+#btnBusca{
+	display:inline;
+	border:0;
+	cursor:pointer;
+	background-color:transparent;
+}
+#divBusca{
+	margin-left: 200px;
+	padding: 3px;
+	display: inline;
+	border:solid 1px;
+	border-radius:15px;
+	height: 30px;
+	width:100px;
+}
+#divBusca form{
+	display:inline;
+}
+#txtBusca{
+  text-align: center;
+  background-color:transparent;
+  padding-left:10px;
+  font-style:italic;
+  font-size: 15px;
+  border:none;
+  height:30px;
+  width:100px;
+}
+table{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	background-color: #E5E9F2;
+}
+#tAnimais{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	background-color: #E5E9F2;
+	border-collapse: none;
+}
+#coluna1{
+	width: 50%;
+}
+p {
+	font-family: Franklin Gothic Medium;
+	color: #919294;
+	font-size: 20px;
+}
+#campo{
+	text-align: right;
+	margin-right: 20px;
+	font-family: Franklin Gothic Medium;
+	color: #343c45;
+	font-size: 20px;
+}
+#meusdados{
+	margin-left: 20%;
+	margin-right: 20%;
+}
+#btnAdocao{
+	font-size:15px;
+	color: #ff1717;
+	text-decoration: none;
+	font-family: Century Gothic;
+}
+#btnAdocao:hover{
+	color: white;
+	text-decoration: none;
+	font-family: Century Gothic;
+}
+#tbtn{
+	text-align:center;
+}
+#dadosAnimal{
+	text-align: center;
+	float:left;
+	width:50%;
+}
+#formAdocao{
+	text-align: center;
+	float: right;
+	width: 50%;
+}
+h4{
+	color: black;
+	font-family: Century Gothic;
+	margin: 0;
+	font-size: 20px;
+	text-align: center;
+}
+#animal{
+	background-color: white;
+}
+#estatudook{
+	font-size:15px;
+	color: orange;
+	text-decoration: none;
+	font-family: Century Gothic;
+}
+#estatudook:hover{
+	color: black;
+	text-decoration: none;
+	font-family: Century Gothic;
+}
+#Divdoacoes{
+	padding: 20px;
+}
